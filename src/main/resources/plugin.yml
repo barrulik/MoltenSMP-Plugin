@@ -1,0 +1,24 @@
+name: MoltenSMP_By_Barrulik
+version: '${project.version}'
+main: me.barrulik.MoltenSMP.MoltenSMP
+api-version: 1.18
+prefix: MOLTENSMP
+authors: [ Barrulik ]
+description: A MoltenSMP plugin.
+commands:
+  resetHearts:
+    description: Resets everyone that is onlines health
+    usage: /<command>
+    permission: MoltenSMP.resethealth
+    permission-message: You do not have the MoltenSMP.resethealth permission.
+  health:
+    description: Shows your exact health
+    usage: /<command>
+  withdrawHeart:
+    description: Withdraw one heart.
+    usage: /<command>
+
+
+
+
+
